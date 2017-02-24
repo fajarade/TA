@@ -73,6 +73,9 @@ ModelImporter:
     100130: Tire_stretched_by_Slow3D_000_Tire_stretched_by_Slow3D_002_MeshPart0
     100132: Tire_stretched_by_Slow3D_000_Tire_stretched_by_Slow3D_002_MeshPart1
     100134: //RootNode
+    100136: Tire_stretched_by_Slow3D_000_Tire_stretched_by_Slow3D_000
+    100138: Tire_stretched_by_Slow3D_000_Tire_stretched_by_Slow3D_001
+    100140: Tire_stretched_by_Slow3D_000_Tire_stretched_by_Slow3D_003
     400000: Mesh_013_caliper_caliperLF_caliper
     400002: Mesh_043_Mesh_064_metal2_body_metal2_000
     400004: Mesh_043_Mesh_064_metal2_body_metal2_004
@@ -141,6 +144,9 @@ ModelImporter:
     400130: Tire_stretched_by_Slow3D_000_Tire_stretched_by_Slow3D_002_MeshPart0
     400132: Tire_stretched_by_Slow3D_000_Tire_stretched_by_Slow3D_002_MeshPart1
     400134: //RootNode
+    400136: Tire_stretched_by_Slow3D_000_Tire_stretched_by_Slow3D_000
+    400138: Tire_stretched_by_Slow3D_000_Tire_stretched_by_Slow3D_001
+    400140: Tire_stretched_by_Slow3D_000_Tire_stretched_by_Slow3D_003
     2300000: Mesh_013_caliper_caliperLF_caliper
     2300002: Mesh_043_Mesh_064_metal2_body_metal2_000
     2300004: Mesh_043_Mesh_064_metal2_body_metal2_004
@@ -207,6 +213,10 @@ ModelImporter:
     2300126: sci_frs_13_lod0_undercarriagea_undercarriage___4610_vertices_41
     2300128: Tire_stretched_by_Slow3D_000_Tire_stretched_by_Slow3D_002_MeshPart0
     2300130: Tire_stretched_by_Slow3D_000_Tire_stretched_by_Slow3D_002_MeshPart1
+    2300132: Tire_stretched_by_Slow3D_000_Tire_stretched_by_Slow3D_000
+    2300134: Tire_stretched_by_Slow3D_000_Tire_stretched_by_Slow3D_001
+    2300136: Tire_stretched_by_Slow3D_000_Tire_stretched_by_Slow3D_002
+    2300138: Tire_stretched_by_Slow3D_000_Tire_stretched_by_Slow3D_003
     3300000: Mesh_013_caliper_caliperLF_caliper
     3300002: Mesh_043_Mesh_064_metal2_body_metal2_000
     3300004: Mesh_043_Mesh_064_metal2_body_metal2_004
@@ -273,6 +283,10 @@ ModelImporter:
     3300126: sci_frs_13_lod0_undercarriagea_undercarriage___4610_vertices_41
     3300128: Tire_stretched_by_Slow3D_000_Tire_stretched_by_Slow3D_002_MeshPart0
     3300130: Tire_stretched_by_Slow3D_000_Tire_stretched_by_Slow3D_002_MeshPart1
+    3300132: Tire_stretched_by_Slow3D_000_Tire_stretched_by_Slow3D_000
+    3300134: Tire_stretched_by_Slow3D_000_Tire_stretched_by_Slow3D_001
+    3300136: Tire_stretched_by_Slow3D_000_Tire_stretched_by_Slow3D_002
+    3300138: Tire_stretched_by_Slow3D_000_Tire_stretched_by_Slow3D_003
     4300000: sci_frs_13_lod0_bumperFrace_frame___542_vertices_666_faces
     4300002: sci_frs_13_cockpit_headlightR_black___179_vertices_266_faces
     4300004: sci_frs_13_cockpit_headlightL_plastic2___251_vertices_264_faces
@@ -339,6 +353,10 @@ ModelImporter:
     4300126: sci_frs_13_cockpit_a_pillar_rubber_trim___72_vertices_60_faces
     4300128: sci_frs_13_lod0_bumperRa_badge___10_vertices_9_faces
     4300130: sci_frs_13_cockpit_fuel_max_digital_gauge___5_vertices_3_faces
+    4300132: Tire_stretched_by_Slow3D_000_Tire_stretched_by_Slow3D_003
+    4300134: Tire_stretched_by_Slow3D_000_Tire_stretched_by_Slow3D_001
+    4300136: Tire_stretched_by_Slow3D_000_Tire_stretched_by_Slow3D_000
+    4300138: Tire_stretched_by_Slow3D_000_Tire_stretched_by_Slow3D_002
     7400000: Default Take
     9500000: //RootNode
   materials:
