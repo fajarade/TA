@@ -18,7 +18,7 @@ public class CarController : MonoBehaviour {
 	Rigidbody rb;
 	Vector3 temp;
 	Vector3 temp1;
-
+		
 	// Use this for initialization
 	void Start () {
 		rb = GetComponent<Rigidbody>();
@@ -37,6 +37,7 @@ public class CarController : MonoBehaviour {
 	void FixedUpdate(){
 		Move_Car();
 		Steer_Wheels();
+		Rotate_Wheels();
 	}
 
 	void Move_Car(){
@@ -59,6 +60,12 @@ public class CarController : MonoBehaviour {
 		temp1 = wheel_FR.transform.localEulerAngles;
 		temp1.y = FL.steerAngle;
 		wheel_FL.transform.localEulerAngles = temp1;
+	}
+
+	void Rotate_Wheels(){
+		//fungsi ini untuk rotasi ban
+		wheel_BL.transform.Rotate (BL.rpm / 180 * 90 * Time.deltaTime, 0, 0);
+		wheel_BR.transform.Rotate (BR.rpm / 180 * 90 * Time.deltaTime, 0, 0);
 	}
 
 }
