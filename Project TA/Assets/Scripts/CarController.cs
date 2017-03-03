@@ -37,7 +37,7 @@ public class CarController : MonoBehaviour {
 	void FixedUpdate(){
 		Move_Car();
 		Steer_Wheels();
-		Rotate_Wheels();
+		//Rotate_Wheels();
 	}
 
 	void Move_Car(){
@@ -62,10 +62,10 @@ public class CarController : MonoBehaviour {
 		wheel_FL.transform.localEulerAngles = temp1;
 	}
 
-	void Rotate_Wheels(){
+	/*void Rotate_Wheels(){
 		//fungsi ini untuk rotasi ban
 		wheel_BL.transform.Rotate (BL.rpm / 180 * 90 * Time.deltaTime, 0, 0);
 		wheel_BR.transform.Rotate (BR.rpm / 180 * 90 * Time.deltaTime, 0, 0);
-	}
+	}*/
 
 }
