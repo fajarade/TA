@@ -18,6 +18,7 @@ public class CarController : MonoBehaviour {
 	Rigidbody rb;
 	Vector3 temp;
 	Vector3 temp1;
+	//Vector3 newVector3;
 		
 	// Use this for initialization
 	void Start () {
@@ -30,9 +31,12 @@ public class CarController : MonoBehaviour {
 	}
 	
 	// Update is called once per frame
-	void Update () {
-		
-	}
+	/*void Update () {
+		float steer = Input.GetAxis("Horizontal");
+		float posy = MobilUser.transform.eulerAngles.y;
+		float posx = MobilUser.transform.eulerAngles.x;
+		Steer_Wheels.transform.eulerAngles = newVector3(posx,posy,steer);
+	}*/
 
 	void FixedUpdate(){
 		Move_Car();
@@ -57,7 +61,7 @@ public class CarController : MonoBehaviour {
 		wheel_FR.transform.localEulerAngles = temp1;
 
 		//this is front left swapping of steer Angle...
-		temp1 = wheel_FR.transform.localEulerAngles;
+		temp1 = wheel_FL.transform.localEulerAngles;
 		temp1.y = FL.steerAngle;
 		wheel_FL.transform.localEulerAngles = temp1;
 	}
