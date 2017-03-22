@@ -37,14 +37,14 @@ public class CarControl : MonoBehaviour {
 		accelerate = Input.GetAxis("Vertical") + Input.GetAxis("Vertical2");
 		print(wheelColliders[0].motorTorque);
 		UpdateWheelAngle();
-
+		
 		if(Tran == true)
 		{
 			wheelColliders[0].brakeTorque = 0;
 			wheelColliders[1].brakeTorque = 0;
 			wheelColliders[2].brakeTorque = 0;
 			wheelColliders[3].brakeTorque = 0;
-
+			print(Input.GetAxis("Vertical"));
 			if(accelerate >= 0)
 			{
 				ForwardAccelerate();
@@ -103,7 +103,7 @@ public class CarControl : MonoBehaviour {
 
 	void UpdateSteerAngle()
 	{
-		float steer = Input.GetAxis("Horizontal") * - 90;
+		float steer = Input.GetAxis("Horizontal") *  -90;
 		float posy = car.transform.eulerAngles.y;
 		float posx = car.transform.eulerAngles.x;
 		SteerWheel.transform.eulerAngles = new Vector3(posx, posy, steer);
@@ -112,7 +112,7 @@ public class CarControl : MonoBehaviour {
 	void UpdateWheelAngle()
 	{
 		float steer = Input.GetAxis("Horizontal");
-		float finalAngle = steer * 50f;
+		float finalAngle = steer * -50f;
 		wheelColliders[0].steerAngle = finalAngle;
 		wheelColliders[1].steerAngle = finalAngle;
 	}
