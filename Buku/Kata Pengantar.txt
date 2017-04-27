@@ -1,0 +1,7 @@
+Segala puji dan syukur penulis hantarkan kehadirat tuhan yang maha esa Allah Subhanahu Wa Taa'la . Karena atas berkat dan rahmat beliau penulis bisa menyelesaikan Tugas Akhir yang merupakan salah satu syarat kelulusan dari Teknik Informatika ITS. Tidak lupa Salawat dan salam kepada Rasulullah Muhammad Sallallahu Alaihi Wasallam yang telah menghijrahka umat manusia dari jaman jahiliah.
+
+Alhamdulillah pada kesempatan kali ini penulis bisa menyelesaikan salah satu kewajiban penulis untuk menyelesaikan perkuliahan di Teknik Informatika yaitu Tugas Akhir yang berjudul "Rancang Bangun Simulasi Menyalib Mobil (Overtaking Car) Sesuai dengan Peraturan Pemerintah 1993 Menggunakan Steering Wheel dan oculus rift". Dalam pengerjaan tugas akhir ini merupakan momen untuk penulis untuk mengimplementasikan ilmu-ilmu yang didapat ketika masa perkuliahan di Teknik Informatika Institut Teknologi Sepuluh Nopember.
+
+Melalui buku ini penulis juga berterima kasih kepada beberapa pihak yang telah membantu penulis dalam pengerjaan Tugas Akhir dan juga penyelesaiaan pembuatan buku ini baik yang terlihat langsung ataupun yang tidak terlihat langsung. Pihak-pihak tersebut adalah:
+1. Kedua Orang tua penulis yang telah membantu fisik ataupun mental
+2. 
