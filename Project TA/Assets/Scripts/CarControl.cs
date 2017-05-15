@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class CarControl : MonoBehaviour {
 
-	float MotorF = 600;
+	float MotorF = -600;
 	float BrakeF = 60000;
 	public WheelCollider[] wheelColliders = new WheelCollider[4];
 	public Transform [] tiremeshes = new Transform[4];
@@ -103,7 +103,7 @@ public class CarControl : MonoBehaviour {
 
 	void UpdateSteerAngle()
 	{
-		float steer = Input.GetAxis("Horizontal") *  -90;
+		float steer = Input.GetAxis("Horizontal") * -90;
 		float posy = car.transform.eulerAngles.y;
 		float posx = car.transform.eulerAngles.x;
 		SteerWheel.transform.eulerAngles = new Vector3(posx, posy, steer);
