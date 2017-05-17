@@ -12,8 +12,8 @@ public class CarControl : MonoBehaviour {
 	public Transform centerOfMassBody;
 	public GameObject SteerWheel;
 	public Rigidbody car;
-		bool Tran = true;
-		public Text GearShift;
+	bool Tran = true;
+	public Text GearShift;
 	public float accelerate;
 	bool onetime = false;
 
@@ -35,7 +35,7 @@ public class CarControl : MonoBehaviour {
 	void FixedUpdate()
 	{
 		accelerate = Input.GetAxis("Vertical") + Input.GetAxis("Vertical2");
-		print(wheelColliders[0].motorTorque);
+		//print(wheelColliders[0].motorTorque);
 		UpdateWheelAngle();
 		
 		if(Tran == true)

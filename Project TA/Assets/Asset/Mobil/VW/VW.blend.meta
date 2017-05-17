@@ -249,6 +249,9 @@ ModelImporter:
     100482: window_head
     100484: window_side
     100486: window_side_1
+    100488: Object187_MeshPart0
+    100490: Object187_MeshPart1
+    100492: Object187_MeshPart2
     400000: 1
     400002: 10
     400004: 11
@@ -493,6 +496,9 @@ ModelImporter:
     400482: window_head
     400484: window_side
     400486: window_side_1
+    400488: Object187_MeshPart0
+    400490: Object187_MeshPart1
+    400492: Object187_MeshPart2
     2300000: 1
     2300002: 10
     2300004: 11
@@ -735,6 +741,9 @@ ModelImporter:
     2300478: window_head
     2300480: window_side
     2300482: window_side_1
+    2300484: Object187_MeshPart0
+    2300486: Object187_MeshPart1
+    2300488: Object187_MeshPart2
     3300000: 1
     3300002: 10
     3300004: 11
@@ -977,6 +986,9 @@ ModelImporter:
     3300478: window_head
     3300480: window_side
     3300482: window_side_1
+    3300484: Object187_MeshPart0
+    3300486: Object187_MeshPart1
+    3300488: Object187_MeshPart2
     4300000: Box208
     4300002: dvornik05
     4300004: Object166
@@ -1219,6 +1231,9 @@ ModelImporter:
     4300478: 29
     4300480: 1
     4300482: Obj_539
+    4300484: Object187_MeshPart0
+    4300486: Object187_MeshPart1
+    4300488: Object187_MeshPart2
     7400000: Default Take
     9500000: //RootNode
   materials:
