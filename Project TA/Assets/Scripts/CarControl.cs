@@ -20,8 +20,8 @@ public class CarControl : MonoBehaviour {
 	// Use this for initialization
 	void Start () 
 	{
-		GearShift.text = "Gear Shift : D";
-		car.centerOfMass = centerOfMassBody.transform.localPosition;
+		//GearShift.text = "Gear Shift : D";
+		//car.centerOfMass = centerOfMassBody.transform.localPosition;
 	}
 	
 	// Update is called once per frame
