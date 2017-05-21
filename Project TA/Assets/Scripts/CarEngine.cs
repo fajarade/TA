@@ -63,6 +63,8 @@ public class CarEngine : MonoBehaviour {
             else {
                 currectNode++;
             }
+
+            //Debug.Log(currectNode.ToString());
         }
     }
 }
