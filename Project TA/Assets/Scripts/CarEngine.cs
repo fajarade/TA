@@ -10,7 +10,7 @@ public class CarEngine : MonoBehaviour {
     public WheelCollider wheelFR;
     public float maxMotorTorque = 8000f;
     public float currentSpeed;
-    public float maxSpeed = 10000f;
+    public float maxSpeed = 30000f;
 
     private List<Transform> nodes;
     private int currectNode = 0;
@@ -19,13 +19,12 @@ public class CarEngine : MonoBehaviour {
 		Transform[] pathTransforms = path.GetComponentsInChildren<Transform>();
         nodes = new List<Transform>();
 
-        for (int i = 0; i < pathTransforms.Length; i++)
-        {
-            if (pathTransforms[i] != path.transform)
-            {
+        for (int i = 0; i < pathTransforms.Length; i++){
+            if (pathTransforms[i] != path.transform){
                 nodes.Add(pathTransforms[i]);
             }
         }
+        //Debug.Log(nodes.Count.ToString());
 	}
 
     private void FixedUpdate() {
@@ -47,20 +46,20 @@ public class CarEngine : MonoBehaviour {
         if (currentSpeed < maxSpeed) {
             wheelFL.motorTorque = maxMotorTorque;
             wheelFR.motorTorque = maxMotorTorque;
-        } 
-        else {
+        } else {
             wheelFL.motorTorque = 0;
             wheelFR.motorTorque = 0;
         }
     }
 
     private void CheckWaypointDistance() {
-        if (Vector3.Distance(transform.position, nodes[currectNode].position) < 0.5f) {
-            if (currectNode == nodes.Count - 1)
-            {
+        Debug.Log(Vector3.Distance(transform.position, nodes[currectNode].position).ToString());
+        if(Vector3.Distance(transform.position, nodes[currectNode].position) < 100f) {
+            //Debug.Log("waca");
+            if(currectNode == nodes.Count - 1) {
+                //Debug.Log("olala");
                 currectNode = 0;
-            }
-            else {
+            } else {
                 currectNode++;
             }
 

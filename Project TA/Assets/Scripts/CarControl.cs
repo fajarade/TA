@@ -44,7 +44,7 @@ public class CarControl : MonoBehaviour {
 			wheelColliders[1].brakeTorque = 0;
 			wheelColliders[2].brakeTorque = 0;
 			wheelColliders[3].brakeTorque = 0;
-			print(Input.GetAxis("Vertical"));
+			//print(Input.GetAxis("Vertical"));
 			if(accelerate >= 0)
 			{
 				ForwardAccelerate();

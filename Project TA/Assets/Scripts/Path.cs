@@ -2,15 +2,13 @@
 using System.Collections;
 using System.Collections.Generic;
 
-public class Path : MonoBehaviour
-{
+public class Path : MonoBehaviour{
 
     public Color lineColor;
 
     private List<Transform> nodes = new List<Transform>();
 
-    void OnDrawGizmosSelected()
-    {
+    void OnDrawGizmosSelected(){
         Gizmos.color = lineColor;
 
         Transform[] pathTransforms = GetComponentsInChildren<Transform>();
