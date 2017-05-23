@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+using System;
 
 public class Path : MonoBehaviour{
 
@@ -37,8 +38,22 @@ public class Path : MonoBehaviour{
             }
 
             Gizmos.DrawLine(previousNode, currentNode);
-            Gizmos.DrawSphere(currentNode, 3f);
+            Gizmos.DrawSphere(currentNode, 1f);
         }
     }
 
+    internal static string GetDirectoryName(string pathName)
+    {
+        throw new NotImplementedException();
+    }
+
+    internal static string GetFileName(string pathName)
+    {
+        throw new NotImplementedException();
+    }
+
+    internal static string GetExtension(string fileName)
+    {
+        throw new NotImplementedException();
+    }
 }
